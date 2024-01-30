@@ -54,7 +54,7 @@ Barry Quinn in Home Attic Office
 
 # Find me at...
 
-[<img src='img/twitter.png' width="25px"\> @quinference](http://twitter.com/Con0metrix)  
+[@quinference](http://twitter.com/Con0metrix)  
 
 [<img src='img/github.png' width="25px"\> @barryquinn1](http://github.com/barryquinn1)  
 
@@ -270,7 +270,7 @@ class:middle
 .pull-left[
 ![TDSP adapted for the FinTech](img/haakman2021ai-figures/Figure 19.jpg)
 
-![Machine learning workflow FinTech](haakman2021ai-figures/Figure 20.jpg){#fig-tdsp4}
+![Machine learning workflow FinTech](img/haakman2021ai-figures/Figure 20.jpg)
 
 Microsoft AI life cycle *FinTech Model* proposed by Haakman et al. (2021)
 ]
