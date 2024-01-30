@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>FIN7030: Algorithmic trading and investment</title>
+    <title>Why study Financial AI?</title>
     <meta charset="utf-8" />
     <meta name="author" content="Barry Quinn" />
-    <meta name="date" content="2021-04-23" />
+    <meta name="date" content="2024-01-30" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
     <script src="libs/tile-view/tile-view.js"></script>
@@ -27,10 +28,18 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# FIN7030: Algorithmic trading and investment
-## Introduction
+.title[
+# Why study Financial AI?
+]
+.subtitle[
+## FIN7030: Artificial Intelligence and Trading
+]
+.author[
 ### Barry Quinn
-### 2021-04-23
+]
+.date[
+### 2024-01-30
+]
 
 ---
 
@@ -44,11 +53,11 @@ layout: true
 class:inverse
 # Outline
 - .salt[Course introduction]
-- .heat[Financial machine learning]
+- .heat[What is AI?]
+- .heat[Financial AI]
 - .salt[Statistical modelling]
-- .large[Breathing exercises to aid .fancy[learning by growing]]
 - .heat[Machine learning and financial econometrics]
-- .salt[Advantages and challenges in using FML]
+- .salt[Advantages and challenges in using Financial AI]
 
 ---
 class:middle
@@ -57,7 +66,7 @@ Barry Quinn in Home Attic Office
 
 # Find me at...
 
-[&lt;img src='img/twitter.png' width="25px"\&gt; @quinference](http://twitter.com/quininference)  
+[&lt;img src='img/twitter.png' width="25px"\&gt; @quinference](http://twitter.com/Con0metrix)  
 
 [&lt;img src='img/github.png' width="25px"\&gt; @barryquinn1](http://github.com/barryquinn1)  
 
@@ -66,21 +75,229 @@ Barry Quinn in Home Attic Office
 [&lt;img src='img/paper-plane.png' width="25px"\&gt; b.quinn@qub.ac.uk](mailto:b.quinn@qub.ac.uk)
 
 .fat[Please read my communication policy to get feedback]
+
+
+&lt;!-- --- --&gt;
+&lt;!-- class:middle --&gt;
+&lt;!-- # Course objective --&gt;
+&lt;!-- .pull-left-1[ --&gt;
+&lt;!-- - Introduce the modern practices in finance of using algorithms to extract computer age statistical inference.  --&gt;
+&lt;!-- - The purpose of this course is not to introduce students to the vast array of machine learning algorithms.  --&gt;
+&lt;!-- - The purpose is to introduce the emerging field of [Financial AI (FML)](https://jfds.pm-research.com/) as a as a complementary enhancement to traditional financial research techniques.  --&gt;
+&lt;!-- ] --&gt;
+&lt;!-- .pull-right-2[ --&gt;
+&lt;!-- .bg-hot-pink.b--dark-pink.ba.bw2.br3.shadow-5.ph4.mt5[ --&gt;
+&lt;!-- This course attempts to present machine learning as a non-linear extension of various topics in quantitative economics such as financial econometrics and dynamic programming, with an emphasis on novel algorithmic representations of data, regularization, and techniques for controlling the bias-variance tradeoff leading to improved out-of-sample forecasting. --&gt;
+&lt;!-- &lt;footer&gt;Dixon et al., 2020 *Machine Learning in Finance*&lt;/footer&gt; --&gt;
+&lt;!-- ] --&gt;
+&lt;!-- &lt;img src="img/dixonMLiF.jpeg" width="20%" class="center" &gt; --&gt;
+&lt;!-- ] --&gt;
+
 ---
 class:middle
-# Course objective
-.pull-left-1[
-- Introduce the modern practices in finance of using algorithms to extract computer age statistical inference. 
-- The purpose of this course is not to introduce students to the vast array of machine learning algorithms. 
-- The purpose is to introduce the emerging field of [Financial Machine Learning (FML)](https://jfds.pm-research.com/) as a as a complementary enhancement to traditional financial research techniques. 
+# What is AI?
+
+.pull-left[
+![Statistics framed as machine learning and AI ](https://miro.medium.com/max/400/1*-bhLYOP-EahyDXPJvCPrhg.jpeg)
 ]
-.pull-right-2[
-.bg-hot-pink.b--dark-pink.ba.bw2.br3.shadow-5.ph4.mt5[
-This course attempts to present machine learning as a non-linear extension of various topics in quantitative economics such as financial econometrics and dynamic programming, with an emphasis on novel algorithmic representations of data, regularization, and techniques for controlling the bias-variance tradeoff leading to improved out-of-sample forecasting.
-&lt;footer&gt;Dixon et al., 2020 *Machine Learning in Finance*&lt;/footer&gt;
+.pull-right[
+
+![Word cloud of top 100 AI corporate influencer tweets](https://www.onalytica.com/wp-content/uploads/2017/05/Word-Cloud-2-1.png)
 ]
-&lt;img src="img/dixonMLiF.jpeg" width="20%" class="center" &gt;
+
+---
+class: middle
+# What is AI?
+
+- Left figure is a tongue and cheek view, but highlights one of the two disciplines involved in the development of AI *applied statistics*.
+- Right figure is a word frequency cloud diagram charting the top 100 AI company's twitter accounts activity sourced from [ a 2017 report from Onalytica Inc.](https://onalytica.com/blog/posts/artificial-intelligence-2017-top-100-influencers-brands-and-publications/)
+
+-   Artificial intelligence is a *suitcase word*, capturing many aspects of advanced statistics, machine learning and data science.
+-   Roughly speaking, the workhorse of any AI business strategy is a well designed AI lifecycle.
+
+---
+class: middle
+## 2023 AI Index Report from the Stanford Institute for Human-Centered Artificial Intelligence (HAI)
+
+.saltinline[Key takeaways]
+
+-   **Industry outpacing academia in releasing machine learning models**
+
+-   **AI's mixed impact on the environment**
+
+-   **AI accelerating scientific progress**
+
+-   **Increase in incidents of AI misuse**
+
+-   **Growing demand for AI-professional skills in the U.S.**
+
+-   **Decrease in private investment in AI**
+
+-   **Stagnation in AI adoption by companies, but those adopting are benefiting**
+
+-   **Increased policymaker interest in AI**
+
+.vsmall[
+Click [here](https://aiindex.stanford.edu/wp-content/uploads/2023/04/HAI_AI-Index-Report_2023.pdf) for full report]
+
+
+---
+class:middle
+## AI ~~Hype~~ : Is it different this time? {.fatinline}
+
+-   Historically, the positive fallout from technology adoption waves, empowers some humans, typically to the detriment of others.
+
+-   This time is could be different, as AI is the first tool in history:
+
+    -   that can "make decision" by itself
+    -   that can create "new ideas" by itself
+
+-   Such properties have lead to the development of the areas of AI Safety.
+
+
+- For more details listen to [Yuval Noah Harari on AI Safety](https://open.spotify.com/episode/4cDwZmBR7pbGsEM4dVmCl2?si=4b5169a852604225)
+
+---
+class:middle
+
+
+.pull-left[
+![](img/AIMA.jpg)
 ]
+.pull-right[
+### Demystifying AI
+-   AIMA provide four definitions of AI based on **Thought vs. Action**
+]
+
+---
+class:middle
+## Demystifying AI
+### Thinking Humanly
+
+**Summary**: Leveraging computational models to simulate human cognitive processes.
+
+-   **Examples**:
+    -   **Neural Networks**: Used for credit scoring by analyzing a large dataset of customer information to predict creditworthiness.
+    -   **Cognitive Architectures**: Designing intelligent systems to simulate traders' decision-making processes in stock markets.
+
+---
+class:middle
+## Demystifying AI
+### Thinking Rationally
+
+-   **Summary**: Constructing AI systems capable of logical inference to symbolize knowledge and solve complex problems.
+-   **Examples**:
+    -   **Classical AI**: Developing rule-based systems for regulatory compliance and monitoring.
+    -   **Expert Systems**: Creating platforms that offer financial advice based on a vast knowledge base and rules set by financial experts.
+
+---
+class:middle
+## Demystifying AI
+### Acting Humanly
+
+-   **Summary**: Crafting rational agents optimized to take the most beneficial actions based on their perceived understanding of the world.
+-   **Examples**:
+    -   **Decision-Making Algorithms**: Algorithms facilitating high-frequency trading by making rapid decisions based on market conditions.
+    -   **Planning**: Utilizing AI in strategic financial planning and asset management to maximize returns.
+
+---
+class:middle
+## Demystifying AI
+### Acting Rationally
+
+-   **Summary**: Crafting rational agents optimized to take the most beneficial actions based on their perceived understanding of the world.
+-   **Examples**:
+    -   **Decision-Making Algorithms**: Algorithms facilitating high-frequency trading by making rapid decisions based on market conditions.
+    -   **Planning**: Utilizing AI in strategic financial planning and asset management to maximize returns.
+    -   **Learning Techniques**: Applying reinforcement learning in algorithmic trading to learn and adapt trading strategies continuously based on market dynamics.
+
+---
+class:middle
+## Value proposition of AI in Finance Services
+
+.pull-left[
+[![An estimate of AI potential in banking from McKinsey's 2017 "the executives AI playbook"](img/AI_banking.png)](https://www.mckinsey.com/business-functions/quantumblack/our-insights/the-executives-ai-playbook?page=industries/banking/)
+]
+
+.pull-right[
+- Traditional AI and analytics is just traditional machine learning (e.g. clustering) and statistical techniques (e.g. regression).
+-   Advanced AI is the area of deep learning using neural networks.
+- McKinsey report is from 2017
+]
+
+
+---
+class: middle
+## AI life cycle
+
+.pull-left[
+![CRISP-DM original life cycle model](img/haakman2021ai-figures/Figure 1.jpg)
+]
+
+.pull-right[
+- The AI life cycle is a comprehensive approach from conception to production of AI
+- @fig-crispdm shows the original life cycle model for AI deployment proposed by Shearer (2000).
+- One important component missing in this early life cycle is a feasibility study before design, develop, and deploy stages. 
+- De Silvia (2022) suggest such as assessment should consider **privacy, cybersecurity, trustworthy AI, usability, and social implications**
+
+CRISP-DM stands for Cross Industry Standard Process for Data Mining
+]
+
+---
+class: middle
+## AI life cycle
+
+.pull-left[
+![Team Data Science Process](img/haakman2021ai-figures/Figure 2.jpg)
+
+![Machine learning workflow described by Amershi et al. (2019)](img/haakman2021ai-figures/Figure 3.jpg)
+
+Microsoft AI life cycle
+]
+
+.pull-right[
+- More recently, as terminology transitioned from data mining to *"data science"* and *"data analytics"* Microsoft proposed @fig-tdsp1 largely replacing CRISP-DM.
+- Top figure proposes stronger dependencies but does not enforce a particular order, emphasising that different stages can be interatively repeated at almost any time in the project.
+- Bottom figure shows the nine stages of the ML workflow in TDSP.
+  - Large arrows emphasising model evaluation and monitoring can affect a feedback loop to any of the precedent stages
+]
+
+- This is a more *"agile and iterative data science methodology"*.
+
+---
+class: middle
+## Algorithms, capabilities and applications
+
+.pull-left[
+![A taxonomy of AI algorithms, capabilities, and applications from De Silva (2020)](img/silva2022an-figures/Figure 2.jpg)
+]
+.pull-right[
+- Above presents a taxonomy for the mapping between applications, capability and algorithm
+- AI is capable of predictions, classification, association, and optimisation.
+]
+---
+class:middle
+## AI life cycle for FinTech
+
+.pull-left[
+![TDSP adapted for the FinTech](img/haakman2021ai-figures/Figure 19.jpg)
+
+![Machine learning workflow FinTech](haakman2021ai-figures/Figure 20.jpg){#fig-tdsp4}
+
+Microsoft AI life cycle *FinTech Model* proposed by Haakman et al. (2021)
+]
+
+.pull-right[
+- This figure provides the results of a case study of ING bank conducted by  Haakman et al. (2021).
+- They proposed an adaption of the TDSP methodology for FinTech
+with their refinements in shaded parts with bold text.
+- The key takeaways for fintech (and by extension an AI strategy for the irish credit union movement) are:
+1. Adoption of AI may be a No-go in many areas of finance. 
+2. For a sucessful AI strategy particular attention needs to be placed on documentation of each step (and misstep)
+3. Feasibility needs to be embedded at the early stage of every problem
+4. Much more care and domain expertise is required to produce AI models that work with the noisy and changing nature of financial data.
+]
+
 ---
 class:inverse
 # Computer age statistical inference
@@ -145,7 +362,7 @@ class: middle
 
 | Topic | Week| 
 |:---:|:---:|
-| Why to study financial machine learning? | 1 |
+| Why to study Financial AI? | 1 |
 | High-performance cloud computing in finance|2|
 |Denoising and *detoning* | 3| 
 |Distance metrics | 4| 
@@ -182,7 +399,7 @@ class: middle
 
 ---
 class: middle, inverse
-# Why study FML?
+# Why study Financial AI?
 - .large[Classical econometrics fails on these *Big* datasets]
 
 - .large[Linear algebra methods (eg.OLS) can fail in high dimensional data where there can be more variables than observations.]
@@ -213,12 +430,12 @@ class: middle, inverse
 
 ---
 class: left
-# Fintech growth areas in FML
+# Fintech growth areas using AI
 
 ## .saltinline[.fancy[Robo-Advisors]] 
 ## .saltinline[.fancy[Fraud detection]] 
 ## .saltinline[.fancy[Cryptocurrencies]] 
-
+## .saltinline[.fancy[AI Trading Strategies]] 
 ---
 class: middle
 
@@ -316,19 +533,6 @@ class: middle
  - Is a branch of ML which has been the media darling of AI industry expansion
  - At its core it is using neural networks; algorithms inspired by the structure of the human brain.
  - Statisticians are less impressed, and prefer to categorise these models as semi-parametric to non-parametric.
-
----
-class:inverse
-# A deep learning explainer
-&lt;iframe src="https://player.vimeo.com/video/504543351" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
----
-class: middle,center
-background-image: url(img/title-slide-img.png)
-background-size: cover
-# A breathing break
-
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/cEqZthCaMpo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 ---
 name: statistics
@@ -481,8 +685,8 @@ class: right, center
 ]
 .right-column[
 
-<div id="htmlwidget-47465534d2c6d41a1630" style="width:100%;height:100%;" class="grViz html-widget"></div>
-<script type="application/json" data-for="htmlwidget-47465534d2c6d41a1630">{"x":{"diagram":"digraph boxes_and_circles {\n graph [layout=dot]\n# define the global styles of the nodes. We can override these in box if we wish\nnode [shape = rectangle, style = filled,width=1,fontsize=50]\n\noverfit [label=\"Overfitting\", fillcolor=red,fontsize=80]\n\ntrain [label = \"Training Set \", fillcolor = Beige,fontsize=60]\ntest [label = \"Testing Set \n (Backtest overfitting)\", fillcolor = Beige,fontsize=60]\ntrail [label =  \"Report all trails \n number and variance\"]\ngeneral [label = \"Generalisation error \n synthetic dataset\"]\ndsharpe [label= \"Deflated Sharpe Ratio\"]\nresample [label=\"Resampling \n CPCV\"]\nmonte [label=\"Monte Carlo\"]\nensemble [label=\"Ensemble Methods\"]\nreg [label=\"Regularisation\"]\nlasso [label=\"Number of variables \n (LASSO)\"]\nstruc [label=\"Structure \n (early stopping, drop-out)\"]\n\n# edge definitions with the node IDs\noverfit -> {test,train}\ntest -> {trail,general}\ntrail -> dsharpe\ngeneral -> {resample, monte}\ntrain -> {general,ensemble,reg}\nreg -> {lasso,struc}\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item" id="htmlwidget-edde5a0494ecdcdc1045" style="width:100%;height:100%;"></div>
+<script type="application/json" data-for="htmlwidget-edde5a0494ecdcdc1045">{"x":{"diagram":"digraph boxes_and_circles {\n graph [layout=dot]\n# define the global styles of the nodes. We can override these in box if we wish\nnode [shape = rectangle, style = filled,width=1,fontsize=50]\n\noverfit [label=\"Overfitting\", fillcolor=red,fontsize=80]\n\ntrain [label = \"Training Set \", fillcolor = Beige,fontsize=60]\ntest [label = \"Testing Set \n (Backtest overfitting)\", fillcolor = Beige,fontsize=60]\ntrail [label =  \"Report all trails \n number and variance\"]\ngeneral [label = \"Generalisation error \n synthetic dataset\"]\ndsharpe [label= \"Deflated Sharpe Ratio\"]\nresample [label=\"Resampling \n CPCV\"]\nmonte [label=\"Monte Carlo\"]\nensemble [label=\"Ensemble Methods\"]\nreg [label=\"Regularisation\"]\nlasso [label=\"Number of variables \n (LASSO)\"]\nstruc [label=\"Structure \n (early stopping, drop-out)\"]\n\n# edge definitions with the node IDs\noverfit -> {test,train}\ntest -> {trail,general}\ntrail -> dsharpe\ngeneral -> {resample, monte}\ntrain -> {general,ensemble,reg}\nreg -> {lasso,struc}\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 ]
 
 ---
@@ -597,6 +801,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable
