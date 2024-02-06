@@ -1,6 +1,6 @@
 ---
 title: "Why study Financial AI?"
-subtitle: "FIN7030: Artificial Intelligence and Trading"
+subtitle: "FIN7030"
 author: "Barry Quinn"
 date: "`r Sys.Date()`"
 output:
@@ -35,7 +35,7 @@ xaringanExtra::use_broadcast()
 ```
 
 layout: true
-<div class="my-footer"><span>quinference.com</span></div>
+<div class="my-footer"><span>AI and Trading</span></div>
 
 ---
 class:inverse
@@ -64,6 +64,17 @@ Barry Quinn in Home Attic Office
 
 .fat[Please read my communication policy to get feedback]
 
+---
+class:middle
+
+# Enhancing Mathematical Understanding in Machine Learning
+
+- Machine learning's essence lies in grasping numerous mathematical foundations.
+- Our course aims to nurture an intuitive grasp of these principles, steering clear of excessive technicality.
+- We acknowledge that solely relying on mathematical notation might deter engagement.
+- To counter this, we'll adopt a dynamic learning strategy, employing code, discussions, and tangible examples to bring concepts to life.
+- Embracing a multifaceted learning methodology not only fosters deeper understanding but also ensures the retention of knowledge.
+- Predominantly, our sessions will feature hands-on coding exercises. This "learn by doing" philosophy encourages experimentation, allowing for mistakes that solidify learning.
 
 <!-- --- -->
 <!-- class:middle -->

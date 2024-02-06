@@ -4,7 +4,7 @@
     <title>Why study Financial AI?</title>
     <meta charset="utf-8" />
     <meta name="author" content="Barry Quinn" />
-    <meta name="date" content="2024-01-30" />
+    <meta name="date" content="2024-02-06" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
@@ -32,13 +32,13 @@ class: center, middle, inverse, title-slide
 # Why study Financial AI?
 ]
 .subtitle[
-## FIN7030: Artificial Intelligence and Trading
+## FIN7030
 ]
 .author[
 ### Barry Quinn
 ]
 .date[
-### 2024-01-30
+### 2024-02-06
 ]
 
 ---
@@ -47,7 +47,7 @@ class: center, middle, inverse, title-slide
 
 
 layout: true
-&lt;div class="my-footer"&gt;&lt;span&gt;quinference.com&lt;/span&gt;&lt;/div&gt;
+&lt;div class="my-footer"&gt;&lt;span&gt;AI and Trading&lt;/span&gt;&lt;/div&gt;
 
 ---
 class:inverse
@@ -76,6 +76,17 @@ Barry Quinn in Home Attic Office
 
 .fat[Please read my communication policy to get feedback]
 
+---
+class:middle
+
+# Enhancing Mathematical Understanding in Machine Learning
+
+- Machine learning's essence lies in grasping numerous mathematical foundations.
+- Our course aims to nurture an intuitive grasp of these principles, steering clear of excessive technicality.
+- We acknowledge that solely relying on mathematical notation might deter engagement.
+- To counter this, we'll adopt a dynamic learning strategy, employing code, discussions, and tangible examples to bring concepts to life.
+- Embracing a multifaceted learning methodology not only fosters deeper understanding but also ensures the retention of knowledge.
+- Predominantly, our sessions will feature hands-on coding exercises. This "learn by doing" philosophy encourages experimentation, allowing for mistakes that solidify learning.
 
 &lt;!-- --- --&gt;
 &lt;!-- class:middle --&gt;
@@ -685,8 +696,8 @@ class: right, center
 ]
 .right-column[
 
-<div class="grViz html-widget html-fill-item" id="htmlwidget-cd755491cb6b7256fa6f" style="width:100%;height:100%;"></div>
-<script type="application/json" data-for="htmlwidget-cd755491cb6b7256fa6f">{"x":{"diagram":"digraph boxes_and_circles {\n graph [layout=dot]\n# define the global styles of the nodes. We can override these in box if we wish\nnode [shape = rectangle, style = filled,width=1,fontsize=50]\n\noverfit [label=\"Overfitting\", fillcolor=red,fontsize=80]\n\ntrain [label = \"Training Set \", fillcolor = Beige,fontsize=60]\ntest [label = \"Testing Set \n (Backtest overfitting)\", fillcolor = Beige,fontsize=60]\ntrail [label =  \"Report all trails \n number and variance\"]\ngeneral [label = \"Generalisation error \n synthetic dataset\"]\ndsharpe [label= \"Deflated Sharpe Ratio\"]\nresample [label=\"Resampling \n CPCV\"]\nmonte [label=\"Monte Carlo\"]\nensemble [label=\"Ensemble Methods\"]\nreg [label=\"Regularisation\"]\nlasso [label=\"Number of variables \n (LASSO)\"]\nstruc [label=\"Structure \n (early stopping, drop-out)\"]\n\n# edge definitions with the node IDs\noverfit -> {test,train}\ntest -> {trail,general}\ntrail -> dsharpe\ngeneral -> {resample, monte}\ntrain -> {general,ensemble,reg}\nreg -> {lasso,struc}\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item" id="htmlwidget-54cd923f1991bc759136" style="width:100%;height:100%;"></div>
+<script type="application/json" data-for="htmlwidget-54cd923f1991bc759136">{"x":{"diagram":"digraph boxes_and_circles {\n graph [layout=dot]\n# define the global styles of the nodes. We can override these in box if we wish\nnode [shape = rectangle, style = filled,width=1,fontsize=50]\n\noverfit [label=\"Overfitting\", fillcolor=red,fontsize=80]\n\ntrain [label = \"Training Set \", fillcolor = Beige,fontsize=60]\ntest [label = \"Testing Set \n (Backtest overfitting)\", fillcolor = Beige,fontsize=60]\ntrail [label =  \"Report all trails \n number and variance\"]\ngeneral [label = \"Generalisation error \n synthetic dataset\"]\ndsharpe [label= \"Deflated Sharpe Ratio\"]\nresample [label=\"Resampling \n CPCV\"]\nmonte [label=\"Monte Carlo\"]\nensemble [label=\"Ensemble Methods\"]\nreg [label=\"Regularisation\"]\nlasso [label=\"Number of variables \n (LASSO)\"]\nstruc [label=\"Structure \n (early stopping, drop-out)\"]\n\n# edge definitions with the node IDs\noverfit -> {test,train}\ntest -> {trail,general}\ntrail -> dsharpe\ngeneral -> {resample, monte}\ntrain -> {general,ensemble,reg}\nreg -> {lasso,struc}\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 ]
 
 ---
