@@ -351,9 +351,9 @@ class:inverse
 ---
 class:middle
 # Asessment
-.heat[30% Critical essay worth due in the middle of the term]
+.heat[40% Critical Generative AI project on Trading]
 
-.salt[70% End of term computer based practical test]
+.salt[60% End of term computer based practical test]
 
 ---
 class: middle
@@ -369,6 +369,8 @@ class: middle
 | Explainable Artificial Intelligence |6 & 7| 
 |Testing set overfitting| 8 & 9| 
 | Round up |10|
+
+- **We will also have a careers in Quant Finance Masterclass** (TBC)
 
 ---
 class: left
@@ -440,7 +442,7 @@ class: middle
 
 .left-column[
 
-# `r emo::ji("confused")`
+# `r emoji::emoji("confused")`
 
 ]
 
@@ -463,7 +465,7 @@ class: middle
 
 .left-column[
 
-# `r emo::ji("confused")`
+# `r emoji::emoji("confused")`
 
 ]
 

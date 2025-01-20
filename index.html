@@ -4,7 +4,7 @@
     <title>Why study Financial AI?</title>
     <meta charset="utf-8" />
     <meta name="author" content="Barry Quinn" />
-    <meta name="date" content="2024-02-06" />
+    <meta name="date" content="2025-01-20" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
@@ -17,6 +17,7 @@
     <link href="libs/xaringanExtra-broadcast/broadcast.css" rel="stylesheet" />
     <script src="libs/xaringanExtra-broadcast/broadcast.js"></script>
     <link href="libs/tachyons/tachyons.min.css" rel="stylesheet" />
+    <link href="libs/htmltools-fill/fill.css" rel="stylesheet" />
     <script src="libs/htmlwidgets/htmlwidgets.js"></script>
     <script src="libs/viz/viz.js"></script>
     <link href="libs/DiagrammeR-styles/styles.css" rel="stylesheet" />
@@ -38,7 +39,7 @@ class: center, middle, inverse, title-slide
 ### Barry Quinn
 ]
 .date[
-### 2024-02-06
+### 2025-01-20
 ]
 
 ---
@@ -363,9 +364,9 @@ class:inverse
 ---
 class:middle
 # Asessment
-.heat[30% Critical essay worth due in the middle of the term]
+.heat[40% Critical Generative AI project on Trading]
 
-.salt[70% End of term computer based practical test]
+.salt[60% End of term computer based practical test]
 
 ---
 class: middle
@@ -381,6 +382,8 @@ class: middle
 | Explainable Artificial Intelligence |6 &amp; 7| 
 |Testing set overfitting| 8 &amp; 9| 
 | Round up |10|
+
+- **We will also have a careers in Quant Finance Masterclass** (TBC)
 
 ---
 class: left
@@ -696,8 +699,8 @@ class: right, center
 ]
 .right-column[
 
-<div class="grViz html-widget html-fill-item" id="htmlwidget-54cd923f1991bc759136" style="width:100%;height:100%;"></div>
-<script type="application/json" data-for="htmlwidget-54cd923f1991bc759136">{"x":{"diagram":"digraph boxes_and_circles {\n graph [layout=dot]\n# define the global styles of the nodes. We can override these in box if we wish\nnode [shape = rectangle, style = filled,width=1,fontsize=50]\n\noverfit [label=\"Overfitting\", fillcolor=red,fontsize=80]\n\ntrain [label = \"Training Set \", fillcolor = Beige,fontsize=60]\ntest [label = \"Testing Set \n (Backtest overfitting)\", fillcolor = Beige,fontsize=60]\ntrail [label =  \"Report all trails \n number and variance\"]\ngeneral [label = \"Generalisation error \n synthetic dataset\"]\ndsharpe [label= \"Deflated Sharpe Ratio\"]\nresample [label=\"Resampling \n CPCV\"]\nmonte [label=\"Monte Carlo\"]\nensemble [label=\"Ensemble Methods\"]\nreg [label=\"Regularisation\"]\nlasso [label=\"Number of variables \n (LASSO)\"]\nstruc [label=\"Structure \n (early stopping, drop-out)\"]\n\n# edge definitions with the node IDs\noverfit -> {test,train}\ntest -> {trail,general}\ntrail -> dsharpe\ngeneral -> {resample, monte}\ntrain -> {general,ensemble,reg}\nreg -> {lasso,struc}\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item" id="htmlwidget-3af2b0be08ab5d3b7c27" style="width:100%;height:100%;"></div>
+<script type="application/json" data-for="htmlwidget-3af2b0be08ab5d3b7c27">{"x":{"diagram":"digraph boxes_and_circles {\n graph [layout=dot]\n# define the global styles of the nodes. We can override these in box if we wish\nnode [shape = rectangle, style = filled,width=1,fontsize=50]\n\noverfit [label=\"Overfitting\", fillcolor=red,fontsize=80]\n\ntrain [label = \"Training Set \", fillcolor = Beige,fontsize=60]\ntest [label = \"Testing Set \n (Backtest overfitting)\", fillcolor = Beige,fontsize=60]\ntrail [label =  \"Report all trails \n number and variance\"]\ngeneral [label = \"Generalisation error \n synthetic dataset\"]\ndsharpe [label= \"Deflated Sharpe Ratio\"]\nresample [label=\"Resampling \n CPCV\"]\nmonte [label=\"Monte Carlo\"]\nensemble [label=\"Ensemble Methods\"]\nreg [label=\"Regularisation\"]\nlasso [label=\"Number of variables \n (LASSO)\"]\nstruc [label=\"Structure \n (early stopping, drop-out)\"]\n\n# edge definitions with the node IDs\noverfit -> {test,train}\ntest -> {trail,general}\ntrail -> dsharpe\ngeneral -> {resample, monte}\ntrain -> {general,ensemble,reg}\nreg -> {lasso,struc}\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 ]
 
 ---
