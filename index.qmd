@@ -33,14 +33,14 @@ library(timevis)
 
 ```
 
-## Outline {.inverse}
+## Outline
 
-- :salt[Course introduction]
-- :heat[What is AI?]
-- :heat[Financial AI]
-- :salt[Statistical modelling]
-- :heat[Machine learning and financial econometrics]
-- :salt[Advantages and challenges in using Financial AI]
+- [Course introduction]{.salt}
+- [What is AI?]{.heat}
+- [Financial AI]{.heat}
+- [Statistical modelling]{.salt}
+- [Machine learning and financial econometrics]{.heat}
+- [Advantages and challenges in using Financial AI]{.heat}
 
 ## About Me {.middle}
 
